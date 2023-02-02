@@ -36,17 +36,17 @@ public class Queues {
     System.out.println(queue.peek());
     System.out.println(queue);
 
-    //push will add to the start of the list?
+    //push will add to the start of the list
     queue.push(5);
     System.out.println(queue);
 
     queue.addFirst(10); // insert in first position
-    queue.addLast(20); //
+    queue.addLast(20); // append in last position
     queue.push(30); // insert in first position, same as addFirst?
     queue.offer(40); // append in last position, same as addLast?
 
     System.out.println(queue);
-    System.out.println(queue.pop());
+    System.out.println(queue.pop()); // removes and returns first value
 
     }
 }

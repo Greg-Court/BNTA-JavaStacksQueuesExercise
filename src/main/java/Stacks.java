@@ -54,10 +54,15 @@ public class Stacks {
 
         // methods unique to Stacks
 
+        System.out.println(stack);
+
+        // check last added / top item
         System.out.println("Last element: " + stack.peek());
 
+        // returns the index of the element
         System.out.println("3 is at position: " + stack.search(3));
 
+        // removes top/last added item
         System.out.println("Popped element: " + stack.pop());
 
         // methods from List implementation
@@ -72,16 +77,20 @@ public class Stacks {
 
         System.out.println(stack.size());
 
+        // to check if its empty
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println(stack.empty());
 
 
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
-        
+
+
+
 
         // DEQUEUE IMPLEMENTATION OF STACK ---------------------------------------------
 
